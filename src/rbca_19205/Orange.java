@@ -1,6 +1,5 @@
-package rbca_19205;
+//package rbca_19205;
 
-import git_lab2.Orange;
 
 public class Orange {
 	String color;
@@ -15,5 +14,8 @@ public class Orange {
 	System.out.println("color of apple is " + color);
 
 	}
-
+	String getColor()
+	{
+	return color;
+	}
 }
